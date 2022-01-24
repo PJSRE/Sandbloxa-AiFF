@@ -15,3 +15,5 @@ There are 3 versions of sandbloxa
  - 
  - Keep updating Sandbloxa EN/SPANISH
  - Done
+Download here:
+https://github.com/PJSRE/Sandbloxa-AiFF/archive/refs/heads/main.zip
