@@ -9,6 +9,9 @@ There are 3 versions of sandbloxa
  Sandbloxa EN/SPANISH
  
  ----------------------
-  -[x] Stop updating Sandbloxa
-  -[x] Realease Sandbloxa NIGHT
-  -[ ] Keep updating Sandbloxa EN/SPANISH
+ - Stop updating Sandbloxa
+ - Done
+ - Realease Sandbloxa NIGHT
+ - 
+ - Keep updating Sandbloxa EN/SPANISH
+ - Done
