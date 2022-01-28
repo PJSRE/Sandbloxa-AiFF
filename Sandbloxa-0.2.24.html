@@ -7,16 +7,10 @@
     
 <!--
 ¡Hola! ¡NUEVA ACTUALIZACIÓN!
-He hecho un sitio en el navegador de Internet.
-Me siento muy bien al respecto, tiene 10 votos actualmente.
-https://sites.google.com/my.prideschools.org/offical-sandbloxa/home
-Sé que hay un problema técnico en el que los árboles crecen bajo tierra y las cuevas son muy profundas. Lo arreglaré pronto.
+
 
 Hello! NEW UPDATE! 
-I have made a site on the internet browser.
-I am feeling very good about it, this has 10 votes currently. 
-https://sites.google.com/my.prideschools.org/offical-sandbloxa/home
-I know there is a glitch where trees are growing under the ground and the caves are very deep. I will fix it soon.
+
 
 -->
 
@@ -240,7 +234,7 @@ var HomeTitleFont="VT323,monospace"
 var HomeTitleFontShade = 30
 var EditionName="AiFF"
 var GameType="[Sandbloxa 3D]"
-var V =" EN/SPANISH v0.2.24 [01/23/22]"
+var V =" Fix v0.2.30 [01/23/22]"
 var Buildedition ="Sandbox"
 var sky1 =0
 var sky2 =1
@@ -258,7 +252,7 @@ var cross2 =crossh
 var cross3 =crossh
 var cross4 =crossh
 //player variables
-var sped =0.185
+var sped =0.175
 if(sky2 ===0.80){
     sky2===0.10
 }else{sky2===0.70}
@@ -4414,7 +4408,7 @@ Button.add(width / 2, height / 2 + 50, 400, 50, "Ajustes", "main menu", r => cha
         		})
         		Button.add(width / 2, 285, 0, 0, " ", "creation menu", nothing, always, "Coming Soon! It'll come in due time.")
         		Button.add(width / 2, 335, 0, 0, " ", "creation menu", nothing, always, "Coming soon!! Be patient.")
-        		Button.add(width / 2, height - 90, 300, 40, "Crear nuevo Guardar (Create Save)", "creation menu", r => {
+        		Button.add(width / 2, height - 90, 300, 40, "Crear nuevo Guardar (Create)", "creation menu", r => {
         			world = new World()
         			world.id = Date.now()
         			let name = boxCenterTop.value || "-"
@@ -4450,7 +4444,7 @@ Button.add(width / 2, height / 2 + 50, 400, 50, "Ajustes", "main menu", r => cha
         		let x2 = w2 / 2 + 5
         		let mid = width / 2
         		Button.add(mid - 3 * x4, height - 30, w4, 40, "Editar (Edit)", "loadsave menu", r => changeScene("editworld"), () => (selected() || !worlds[selectedWorld].edited))
-        		Button.add(mid - x4, height - 30, w4, 40, "Eliminar(Delete)", "loadsave menu", r => {
+        		Button.add(mid - x4, height - 30, w4, 40, "Eliminar(Del)", "loadsave menu", r => {
         			if (worlds[selectedWorld] && confirm(`Are you sure you want to delete ${worlds[selectedWorld].name}?`)) {
         				deleteFromDB(selectedWorld)
         				window.worlds.removeChild(document.getElementById(selectedWorld))
@@ -5540,7 +5534,7 @@ Button.add(width / 2, height / 2 + 50, 400, 50, "Ajustes", "main menu", r => cha
         			textSize(60)
         			fill(0, 0, 0)
         			ctx.textAlign = 'center'
-        			text("P", width / 2, 100)
+        			text("", width / 2, 100)
         		}
         
         		drawScreens.options = () => {
