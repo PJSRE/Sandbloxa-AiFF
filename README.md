@@ -5,9 +5,9 @@ https://sites.google.com/my.prideschools.org/offical-sandbloxa/home
 (You can no longer download things from the site, the launch page will be updated though
 
 There are 3 versions of sandbloxa
- Sandbloxa
- Sandbloxa NIGHT
- Sandbloxa EN/SPANISH
+ - Sandbloxa,
+ - Sandbloxa NIGHT,
+ - Sandbloxa EN/SPANISH,
  
  ----------------------
  - Stop updating Sandbloxa
