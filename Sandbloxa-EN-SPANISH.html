@@ -5019,7 +5019,7 @@ Button.add(width / 2, height / 2 + 50, 400, 50, "Ajustes", "main menu", r => cha
         		}
         		if (screen === "play") {
         			if (k === "z") {
-        				p.FOV(settings.fov, 10)
+        				p.FOV(settings.fov, 5)
         			}
         
         			if (k === "shift" && p.sneaking) {
@@ -5588,7 +5588,8 @@ Button.add(width / 2, height / 2 + 50, 400, 50, "Ajustes", "main menu", r => cha
         			analytics.totalFrameTime = 0
         			analytics.worstFrameTime = 0
         			analytics.lastUpdate = Date.now()
-        			updateHUD = true
+				//hmmm.... this variable looks odd
+        			updateHUD = false
         		}
         
         		analytics.frames++
@@ -5604,6 +5605,7 @@ if (window.parent.raf)
 {
 	window.cancelAnimationFrame(window.parent.raf)
 	console.log("Canceled", window.parent.raf)
+	window.alert "Canceled"
 }
 init()
 }
